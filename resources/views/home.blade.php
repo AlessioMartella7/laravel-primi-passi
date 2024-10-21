@@ -12,23 +12,23 @@
 </head>
 
 <body class="bg-dark">
-<main>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link fw-bold" href="#">{{$home}}</a>
-                    <a class="nav-link fw-bold" href="#">{{$booleaners}}</a>
-                    <a class="nav-link fw-bold" href="#">{{$about}}</a>
+    <main>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link fw-bold" href="#">{{ $home }}</a>
+                        <a class="nav-link fw-bold" href="#">{{ $booleaners }}</a>
+                        <a class="nav-link fw-bold" href="#">{{ $about }}</a>
+                    </div>
                 </div>
             </div>
+        </nav>
+        <div class="text-center text-white">
+            <h1>Hello World</h1>
+            <h2>{{ $title }}</h2>
         </div>
-    </nav>
-    <div class="text-center text-white">
-        <h1>Hello World</h1>
-        <h2>{{ $title }}</h2>
-    </div>
-</main>
+    </main>
 </body>
 
 </html>
