@@ -13,9 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    $title = " The journey begins!";
-    return view('home',
-   [ "titolo" => $title,]
+Route::get(
+    '/', function () {
+        $title = " The journey begins!";
+        $home = "Home";
+        $booleaners ="Booleaners";
+        $about ="About Us";
+        return view('home', compact('title','home','booleaners','about'));
+    }
 );
-});
